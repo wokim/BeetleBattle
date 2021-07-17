@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B7EC18926A26700007A210C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7EC18826A26700007A210C /* AppDelegate.swift */; };
+		3B7EC18B26A26700007A210C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3B7EC18A26A26700007A210C /* GameScene.sks */; };
+		3B7EC18D26A26700007A210C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3B7EC18C26A26700007A210C /* Actions.sks */; };
+		3B7EC18F26A26700007A210C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7EC18E26A26700007A210C /* GameScene.swift */; };
+		3B7EC19126A26700007A210C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7EC19026A26700007A210C /* ViewController.swift */; };
+		3B7EC19326A26701007A210C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7EC19226A26701007A210C /* Assets.xcassets */; };
+		3B7EC19626A26701007A210C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7EC19426A26701007A210C /* Main.storyboard */; };
+		3B7EC1A226A26701007A210C /* BeetleBattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7EC1A126A26701007A210C /* BeetleBattleTests.swift */; };
+		3B7EC1AD26A26701007A210C /* BeetleBattleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7EC1AC26A26701007A210C /* BeetleBattleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B7EC19E26A26701007A210C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B7EC17D26A26700007A210C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B7EC18426A26700007A210C;
+			remoteInfo = BeetleBattle;
+		};
+		3B7EC1A926A26701007A210C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B7EC17D26A26700007A210C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B7EC18426A26700007A210C;
+			remoteInfo = BeetleBattle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B7EC18526A26700007A210C /* BeetleBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeetleBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7EC18826A26700007A210C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B7EC18A26A26700007A210C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3B7EC18C26A26700007A210C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		3B7EC18E26A26700007A210C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3B7EC19026A26700007A210C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B7EC19226A26701007A210C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B7EC19526A26701007A210C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B7EC19726A26701007A210C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7EC19826A26701007A210C /* BeetleBattle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeetleBattle.entitlements; sourceTree = "<group>"; };
+		3B7EC19D26A26701007A210C /* BeetleBattleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeetleBattleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7EC1A126A26701007A210C /* BeetleBattleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeetleBattleTests.swift; sourceTree = "<group>"; };
+		3B7EC1A326A26701007A210C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7EC1A826A26701007A210C /* BeetleBattleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeetleBattleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7EC1AC26A26701007A210C /* BeetleBattleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeetleBattleUITests.swift; sourceTree = "<group>"; };
+		3B7EC1AE26A26701007A210C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B7EC18226A26700007A210C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7EC19A26A26701007A210C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7EC1A526A26701007A210C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B7EC17C26A26700007A210C = {
+			isa = PBXGroup;
+			children = (
+				3B7EC18726A26700007A210C /* BeetleBattle */,
+				3B7EC1A026A26701007A210C /* BeetleBattleTests */,
+				3B7EC1AB26A26701007A210C /* BeetleBattleUITests */,
+				3B7EC18626A26700007A210C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B7EC18626A26700007A210C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B7EC18526A26700007A210C /* BeetleBattle.app */,
+				3B7EC19D26A26701007A210C /* BeetleBattleTests.xctest */,
+				3B7EC1A826A26701007A210C /* BeetleBattleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B7EC18726A26700007A210C /* BeetleBattle */ = {
+			isa = PBXGroup;
+			children = (
+				3B7EC18826A26700007A210C /* AppDelegate.swift */,
+				3B7EC18A26A26700007A210C /* GameScene.sks */,
+				3B7EC18C26A26700007A210C /* Actions.sks */,
+				3B7EC18E26A26700007A210C /* GameScene.swift */,
+				3B7EC19026A26700007A210C /* ViewController.swift */,
+				3B7EC19226A26701007A210C /* Assets.xcassets */,
+				3B7EC19426A26701007A210C /* Main.storyboard */,
+				3B7EC19726A26701007A210C /* Info.plist */,
+				3B7EC19826A26701007A210C /* BeetleBattle.entitlements */,
+			);
+			path = BeetleBattle;
+			sourceTree = "<group>";
+		};
+		3B7EC1A026A26701007A210C /* BeetleBattleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B7EC1A126A26701007A210C /* BeetleBattleTests.swift */,
+				3B7EC1A326A26701007A210C /* Info.plist */,
+			);
+			path = BeetleBattleTests;
+			sourceTree = "<group>";
+		};
+		3B7EC1AB26A26701007A210C /* BeetleBattleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B7EC1AC26A26701007A210C /* BeetleBattleUITests.swift */,
+				3B7EC1AE26A26701007A210C /* Info.plist */,
+			);
+			path = BeetleBattleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B7EC18426A26700007A210C /* BeetleBattle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7EC1B126A26701007A210C /* Build configuration list for PBXNativeTarget "BeetleBattle" */;
+			buildPhases = (
+				3B7EC18126A26700007A210C /* Sources */,
+				3B7EC18226A26700007A210C /* Frameworks */,
+				3B7EC18326A26700007A210C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeetleBattle;
+			productName = BeetleBattle;
+			productReference = 3B7EC18526A26700007A210C /* BeetleBattle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B7EC19C26A26701007A210C /* BeetleBattleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7EC1B426A26701007A210C /* Build configuration list for PBXNativeTarget "BeetleBattleTests" */;
+			buildPhases = (
+				3B7EC19926A26701007A210C /* Sources */,
+				3B7EC19A26A26701007A210C /* Frameworks */,
+				3B7EC19B26A26701007A210C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B7EC19F26A26701007A210C /* PBXTargetDependency */,
+			);
+			name = BeetleBattleTests;
+			productName = BeetleBattleTests;
+			productReference = 3B7EC19D26A26701007A210C /* BeetleBattleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B7EC1A726A26701007A210C /* BeetleBattleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7EC1B726A26701007A210C /* Build configuration list for PBXNativeTarget "BeetleBattleUITests" */;
+			buildPhases = (
+				3B7EC1A426A26701007A210C /* Sources */,
+				3B7EC1A526A26701007A210C /* Frameworks */,
+				3B7EC1A626A26701007A210C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B7EC1AA26A26701007A210C /* PBXTargetDependency */,
+			);
+			name = BeetleBattleUITests;
+			productName = BeetleBattleUITests;
+			productReference = 3B7EC1A826A26701007A210C /* BeetleBattleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B7EC17D26A26700007A210C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3B7EC18426A26700007A210C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					3B7EC19C26A26701007A210C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3B7EC18426A26700007A210C;
+					};
+					3B7EC1A726A26701007A210C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3B7EC18426A26700007A210C;
+					};
+				};
+			};
+			buildConfigurationList = 3B7EC18026A26700007A210C /* Build configuration list for PBXProject "BeetleBattle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B7EC17C26A26700007A210C;
+			productRefGroup = 3B7EC18626A26700007A210C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B7EC18426A26700007A210C /* BeetleBattle */,
+				3B7EC19C26A26701007A210C /* BeetleBattleTests */,
+				3B7EC1A726A26701007A210C /* BeetleBattleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B7EC18326A26700007A210C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7EC18B26A26700007A210C /* GameScene.sks in Resources */,
+				3B7EC19326A26701007A210C /* Assets.xcassets in Resources */,
+				3B7EC18D26A26700007A210C /* Actions.sks in Resources */,
+				3B7EC19626A26701007A210C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7EC19B26A26701007A210C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7EC1A626A26701007A210C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7EC18126A26700007A210C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7EC19126A26700007A210C /* ViewController.swift in Sources */,
+				3B7EC18F26A26700007A210C /* GameScene.swift in Sources */,
+				3B7EC18926A26700007A210C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7EC19926A26701007A210C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7EC1A226A26701007A210C /* BeetleBattleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7EC1A426A26701007A210C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7EC1AD26A26701007A210C /* BeetleBattleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B7EC19F26A26701007A210C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B7EC18426A26700007A210C /* BeetleBattle */;
+			targetProxy = 3B7EC19E26A26701007A210C /* PBXContainerItemProxy */;
+		};
+		3B7EC1AA26A26701007A210C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B7EC18426A26700007A210C /* BeetleBattle */;
+			targetProxy = 3B7EC1A926A26701007A210C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B7EC19426A26701007A210C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B7EC19526A26701007A210C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B7EC1AF26A26701007A210C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B7EC1B026A26701007A210C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3B7EC1B226A26701007A210C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BeetleBattle/BeetleBattle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BeetleBattle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.niot.BeetleBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3B7EC1B326A26701007A210C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BeetleBattle/BeetleBattle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BeetleBattle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.niot.BeetleBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3B7EC1B526A26701007A210C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BeetleBattleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.niot.BeetleBattleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeetleBattle.app/Contents/MacOS/BeetleBattle";
+			};
+			name = Debug;
+		};
+		3B7EC1B626A26701007A210C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BeetleBattleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.niot.BeetleBattleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeetleBattle.app/Contents/MacOS/BeetleBattle";
+			};
+			name = Release;
+		};
+		3B7EC1B826A26701007A210C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BeetleBattleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.niot.BeetleBattleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BeetleBattle;
+			};
+			name = Debug;
+		};
+		3B7EC1B926A26701007A210C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BeetleBattleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.niot.BeetleBattleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BeetleBattle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B7EC18026A26700007A210C /* Build configuration list for PBXProject "BeetleBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7EC1AF26A26701007A210C /* Debug */,
+				3B7EC1B026A26701007A210C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7EC1B126A26701007A210C /* Build configuration list for PBXNativeTarget "BeetleBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7EC1B226A26701007A210C /* Debug */,
+				3B7EC1B326A26701007A210C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7EC1B426A26701007A210C /* Build configuration list for PBXNativeTarget "BeetleBattleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7EC1B526A26701007A210C /* Debug */,
+				3B7EC1B626A26701007A210C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7EC1B726A26701007A210C /* Build configuration list for PBXNativeTarget "BeetleBattleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7EC1B826A26701007A210C /* Debug */,
+				3B7EC1B926A26701007A210C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B7EC17D26A26700007A210C /* Project object */;
+}
